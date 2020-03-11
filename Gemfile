@@ -64,7 +64,8 @@ gem 'bootstrap', '~> 4.0.0'
 gem 'devise'
 gem 'high_voltage'
 gem 'pg'
-gem 'pundit'
+gem 'cancancan'
+gem 'activeadmin'
 
 group :development do
   gem 'better_errors'
