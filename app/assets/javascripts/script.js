@@ -19,14 +19,15 @@
   });
 
   // Background-images
-  $('[data-background]').each(function () {
-    $(this).css({
-      'background-image': 'url(' + $(this).data('background') + ')'
-    });
-  });
+  // $('[data-background]').each(function () {
+  //   // alert("hello");
+  //   $(this).css({
+  //     'background-image': 'url(' + $(this).data('background') + ')'
+  //   });
+  // });
 
   // venobox popup
-   $('.venobox').venobox();
+  $('.venobox').venobox();
 
   //  Count Up
   function counter() {
@@ -160,13 +161,13 @@
     ]
   });
 
-   // Aos js
-   AOS.init({
-     once: true,
-     offset: 250,
-     easing: 'ease',
-     duration: 800
-   });
+    // Aos js
+    AOS.init({
+      once: true,
+      offset: 250,
+      easing: 'ease',
+      duration: 800
+    });
 
 
 })(jQuery);

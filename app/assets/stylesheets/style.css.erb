@@ -804,7 +804,7 @@ a.text-light:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(../images/shape/page-title.png);
+  background: url(<%= asset_path("shape/page-title.png") %>);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1123,7 +1123,7 @@ textarea.form-control {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(../images/background/testimonial-1.jpg);
+  background-image: url(<%= asset_path("background/testimonial-1.jpg") %>);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1272,7 +1272,7 @@ textarea.form-control {
   height: 50px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  background: url(../images/quotation/quetesion.png);
+  background: url(<%= asset_path("quotation/quetesion.png") %>);
   background-repeat: no-repeat;
 }
 
@@ -1820,6 +1820,14 @@ form textarea {
 
 .subscription-wrapper .form-control.text-white::placeholder {
   color: #fff;
+}
+
+.banner {
+  background-image: url(<%= asset_path("background/banner.png") %>);
+}
+
+.check-video {
+  background-image: url(<%= asset_path("background/check-video.png") %>);
 }
 
 /*# sourceMappingURL=maps/style.css.map */
