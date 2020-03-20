@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
   root 'home#index'
-  get 'home/about'
-  get 'home/services'
-  get 'home/contact'
+  get 'about', to: 'home#about'
+  get 'services', to: 'home#services'
+  get 'contact', to: 'home#contact'
 end
