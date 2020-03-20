@@ -196,7 +196,8 @@ function initialize() {
         title: 'Agico'
     });
 }
-var map = document.getElementById('map_canvas');
+var map = $('map_canvas');
+
 if (map != null) {
     google.maps.event.addDomListener(window, 'load', initialize);
 }
