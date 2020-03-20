@@ -162,12 +162,12 @@
   });
 
     // Aos js
-    AOS.init({
-      once: true,
-      offset: 250,
-      easing: 'ease',
-      duration: 800
-    });
+    // AOS.init({
+    //   once: true,
+    //   offset: 250,
+    //   easing: 'ease',
+    //   duration: 800
+    // });
 
 
 })(jQuery);
